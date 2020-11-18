@@ -1,0 +1,32 @@
+$ORIGIN .
+$TTL 1D
+
+;SOA records
+@	IN	SOA drulyov.com.	rns.drulyov.com. (
+	0	; serial
+	3h	; refresh
+	30m	; retry
+	3w	; expire
+	1h	; minimum
+)
+@	NS	rns.drulyov.com.
+
+drulyov.com.	IN	NS	pri.drulyov.com.
+pri.drulyov.com.	IN	A	192.168.27.53
+27.168.192.in-addr.arpa.	IN	NS	pri.drulyov.com.
+
+rjacinto1.com.	IN	NS	rjacinto1-pri.rjacinto1.com.
+rjacinto1-pri.rjacinto1.com.	IN	A	192.168.13.53
+13.168.192.in-addr.arpa.	IN	NS	rjacinto1-pri.rjacinto1.com.
+
+aluk10.com.	IN	NS	aluk10-pri.aluk10.com.
+aluk10-pri.aluk10.com. IN	A	192.168.17.53
+17.168.192.in-addr.arpa.	IN	NS	aluk10-pri.aluk10.com.
+
+sknasser1.com.	IN	NS	sknasser1-pri.sknasser1.com.
+sknasser1-pri.sknasser1.com.	IN	A	192.168.21.53
+21.168.192.in-addr.arpa.	IN	NS	sknasser1-pri.sknasser1.com.
+
+aurora-cdt.com.	IN	NS	cmascarinas-pri.aurora-cdt.com.
+cmascarinas-pri.aurora-cdt.com.	IN	A	192.168.20.3
+20.168.192.in-addr.arpa.	IN	NS	cmascarinas-pri.aurora-cdt.com.
